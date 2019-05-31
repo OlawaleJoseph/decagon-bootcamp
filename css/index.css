@@ -170,3 +170,48 @@ label {
     background-color: #333;
     color: #fff
 }
+
+form#login-form {
+    background-color: #eee;
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    font-size: 1.3rem;
+    display: none;
+    color: #874e4c;
+}
+
+#form-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#form-container input {
+    width: 90%;
+}
+
+#close-login-form {
+    font-size: 2.5rem;
+    position: relative;
+    left: 85%;
+}
+
+#close-login-form:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#reset-password {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+    padding: 2em 0.5em 0 0.5em
+}
+
+#reset-password label {
+    margin: 0;
+    display: inline-block;
+}

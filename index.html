@@ -39,6 +39,28 @@
             </div>
         </div>
 
+        <div id="login-form-div">
+            <form action="" method="POST" id="loginForm">
+                <span id="close-login-form">&times;</span>
+                <div id="form-container">
+                    <input type="text" placeholder="Email" name="username" id="username" required class="input" />
+                    <input type="password" placeholder="Password" name="password" id="password" required class="input" />
+        
+                    <a href="./views/user-dashboard.html"><button type="button" id="loginBtn">Login</button></a>
+                </div>
+        
+                <div id="reset-password">
+                    <div>
+                        <label for="remember-me">Remember me</label>
+                        <input type="checkbox" checked="checked" name="remember-me" />
+                    </div>
+        
+                    <span class="reset-password">Forgot
+                        <a href="./views/password-reset.html" id="reset-password-link">password?</a></span>
+                </div>
+            </form>
+        </div>
+
     </div>
     
 </body>
